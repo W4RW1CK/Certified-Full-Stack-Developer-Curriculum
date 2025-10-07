@@ -1,0 +1,49 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mushroom omelette</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Mushroom omelette</h1>
+        <p>Recipe extracted from <a href="https://www.bbc.co.uk/food/recipes/mushroomomelette_79134">BBC UK Food</a></p>
+        <p>A mushroom omelette is a perfect <strong>protein-packed</strong> meal that you can rustle up in no time. Spinach and paprika give extra fibre and flavour.</p>
+        <p>With a GI of 13, this meal is high protein, low GI. Each serving provides 304 kcal, 19g protein, 4.4g carbohydrate (of which 0.6g sugars), 23g fat (of which 4.3g saturates), 2.2g fibre and 0.48g salt per portion.</p>
+      </section>
+      <section>
+        <h2>Ingredients</h2>
+        <ul>
+          <li>1 tbsp rapeseed oil</li>
+          <li>1 large handful mushrooms (about 80g/3oz), sliced</li>
+          <li>1 tbsp ground paprika</li>
+          <li>1 handful baby spinach</li>
+          <li>2 free-range eggs, beaten</li>
+          <li>salt and freshly ground black pepper</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Instructions</h2>
+        <ol>
+          <li>Heat the oil in a non-stick frying pan. Cook the mushrooms for <em>2–3 minutes</em>, or until they are golden-brown. Add the paprika and spinach, and stir so the spinach wilts. Remove the vegetables from the pan.</li>
+          <li>Beat the eggs in a bowl, season with salt and freshly ground black pepper, then pour the beaten egg into the pan. Cook, gently drawing in the sides of the omelette with a spatula, allowing the uncooked egg to fill the gaps and set.</li>
+          <li>When the omelette is almost cooked, spoon the mushroom and spinach mixture back in, then flip over one half and slide onto a plate.</li>
+          <li>Serve and Eat</li>
+        </ol>
+        <figure>
+          <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/mushroomomelette_79134_16x9.jpg" alt="A mushroom omelette on a pan">
+          <figcaption>A mushroom omelette on a pan</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <p>No Copyright - <a href="https://freecodecamp.org">freeCodeCamp</a></p>
+    </footer>
+  </body>
+</html>
+
+** end of index.html **
+
