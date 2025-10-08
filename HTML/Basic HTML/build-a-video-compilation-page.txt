@@ -1,0 +1,63 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Old Church Basement</h1>
+        <p>
+            Old Church Basement is a collaborative live album by American contemporary worship groups Elevation Worship and Maverick City Music. It was released on April 30, 2021 via Sony Music Nashville through their imprints Elevation Worship Records and Provident Label Group. The featured worship leaders on the album are Dante Bowe, Chandler Moore, Naomi Raine, Brandon Lake, Joe L. Barnes, Tiffany Hudson, Chris Brown, and Amanda Lindsey Cook. The album was produced by Chris Brown, Steven Furtick, Jason Ingram, Tony Brown, and Jonathan Jay.
+        </p>
+        <section>
+            <h2>Old Church Basement | Elevation Worship & Maverick City</h2>
+            <p>
+                The song "Old Church Basement" by Elevation Worship & Maverick City features a reflective and heartfelt worship performance. The song contrasts modern church experiences, with their lights and stages, to the simpler, more intimate moments of worship in an old church basement. It highlights themes of authenticity, spiritual renewal, and the joy of salvation, with a focus on heartfelt "Hallelujah" worship. Through both contemporary and traditional melodies, the song celebrates God's goodness and faithfulness, blending personal memories with a communal worship experience.
+            </p>
+            <iframe
+            src="https://youtu.be/4FB3S6Htjek?si=16YjKCZpY1_0W-2O"
+            title="Old Church Basement | Elevation Worship & Maverick City"
+            height="480"
+            width="640"
+            ></iframe>
+        </section>
+
+        <section>
+            <h2>Jireh | Elevation Worship & Maverick City</h2>
+            <p>
+                “Jireh” by Elevation Worship & Maverick City Music** is a powerful worship anthem centered on God's sufficiency and unconditional love. The song declares that God—referred to as "Jireh," meaning *The Lord Will Provide*—is more than enough in every situation. Through heartfelt lyrics and biblical imagery, it reassures listeners of their identity in Christ, God's constant presence in both storms and stillness, and His abundant provision that surpasses all needs and expectations.
+
+            </p>
+            <iframe
+            src="https://youtu.be/mC-zw0zCCtg?si=R_RmFUaO3pFgk_gG"
+            title="Jireh | Elevation Worship & Maverick City"
+            height="480"
+            width="640"
+            ></iframe>
+        </section>
+
+        <section>
+            <h2>Million Little Miracles | Elevation Worship & Maverick City</h2>
+            <p>
+                "Million Little Miracles"* is a reflective and deeply personal worship song that expresses gratitude for the countless ways God shows up in everyday life. With a tone of awe and humility, the lyrics recount blessings—both big and small—as miracles, highlighting that God’s grace and provision are constant, even when undeserved or unnoticed. The repeated line *“I can’t even count 'em all”* captures the overwhelming realization that life is full of divine interventions, reminding listeners to pause and count their blessings with a grateful heart.
+
+            </p>
+            <iframe
+            src="https://youtu.be/4FB3S6Htjek?si=16YjKCZpY1_0W-2O"
+            title="Million Little Miracles | Elevation Worship & Maverick City"
+            height="480"
+            width="640"
+            ></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
