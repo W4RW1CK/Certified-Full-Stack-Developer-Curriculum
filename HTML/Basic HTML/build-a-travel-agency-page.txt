@@ -1,0 +1,49 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Travel Agency Page"</title>
+    <meta
+      name="description"
+      content="My Travel Agency creates fun, student-designed trips with custom itineraries, flights, and activities—perfect for school projects."
+    >
+    </head>
+  <body>
+    <main>
+      <section>
+      <h1>Rome, Italy</h1>
+      <p>Explore ancient history, iconic landmarks like the Colosseum and Vatican City, and rich culture, making it ideal for educational and engaging student travel projects.</p>
+      <h2>Packages</h2>
+      <p>
+        Ancient Rome Adventure – 4 Days <br>
+        Art & Culture Escape – 5 Days <br>
+        Faith & History Journey – 4 Days
+      </p>
+      <ul>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a> for minimum 5 persons</li>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a> for a personalized experience</li>
+      </ul>
+      <h2>Top Itineraries</h2>
+      </section>
+      <section>
+        <figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Rome"></a>
+          <figcaption>Visit Rome</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Alps"></a>
+          <figcaption>Visit Switzerland</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea"></a>
+          <figcaption>Visit Grecce</figcaption>
+        </figure>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
