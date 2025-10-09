@@ -1,0 +1,73 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Event Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#past-events">Past Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>W3PN Congress Buenos Aires 2025</h3>
+                <p>Buenos Aires, AR  - Devconnect</p>
+                <p>
+                    <time datetime="2025-11-16">Nov 16, 2025</time>
+                </p>
+            </article>
+
+            <article>
+                <h3>W3PN Meetup Rome 2025</h3>
+                <p>Rome, IT  - ETHRome</p>
+                <p>
+                    <time datetime="2025-10-09">Oct 9, 2025</time>
+                </p>
+            </article>
+        </section>
+
+        <section id="past-events">
+            <h2>Past Events</h2>
+            <article>
+                <h3>W3PN collaboration at Dappcon 2025</h3>
+                <p>Berlin, DE  - Dappcon</p>
+                <p>
+                    <time datetime="2025-06-16">Jun 16, 2025</time>
+                </p>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="">
+                    <figcaption>Dappcom</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>W3PN Rave Berlin 2025</h3>
+                <p>Berlin, DE  - W3PN Hackathon</p>
+                <p>
+                    <time datetime="2025-06-15">Jun 15, 2025</time>
+                </p>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="">
+                    <figcaption>Rave</figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
