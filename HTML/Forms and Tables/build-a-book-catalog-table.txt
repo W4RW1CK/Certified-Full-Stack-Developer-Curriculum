@@ -1,0 +1,69 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <caption>Book Catalog</caption>
+
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Moby-Dick</td>
+        <td>Herman Melville</td>
+        <td>Novel</td>
+        <td>1851</td>
+      </tr>
+      <tr>
+        <td>Roots</td>
+        <td>Alex Haley</td>
+        <td>Novel</td>
+        <td>1976</td>
+      </tr>
+      <tr>
+        <td>The Autumn of the Patriarch</td>
+        <td>Gabriel Garcia Márquez</td>
+        <td>Novel</td>
+        <td>1975</td>
+      </tr>
+      <tr>
+        <td>Demian</td>
+        <td>Emil Sinclair (Hermann Hesse)</td>
+        <td>Novel</td>
+        <td>1919</td>
+      </tr>
+      <tr>
+        <td>The Truce</td>
+        <td>Mario Benedetti</td>
+        <td>Novel</td>
+        <td>1960</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
+
+** end of index.html **
+
