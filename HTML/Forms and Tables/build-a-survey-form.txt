@@ -1,0 +1,69 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">freeCodeCamp survey form</h1>
+      <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis ligula quis tellus consequat iaculis. Praesent vitae dignissim purus, eget congue massa.</p>
+    </header>
+
+    <main>
+      <form id="survey-form">
+        <fieldset>
+          <legend>Personal Info</legend>
+          <label for="name" id="name-label">Name</label>
+          <input type="text" required id="name" name="name" placeholder="Your name"></input>
+
+          <label for="email" id="email-label">Email</label>
+          <input type="email" required id="email" name="email" size="25" placeholder="Your email">
+
+          <label for="number" id="number-label">Age</label>
+          <input type="number" id="number" name="number" min="3" max="100" placeholder="age">
+        </fieldset>
+
+        <fieldset>
+          <legend>Which option best describes your current role?</legend>
+          <select name="role" id="dropdown">
+            <option value="select">Select</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Would you recommend freeCodeCamp to a friend?</legend>
+          <input id="yes-option" type="radio" name="recommend" value="yes">
+          <label for="yes-option">yes</label>
+          <input id="no-option" type="radio" name="recommend" value="no">
+          <label for="no-option">no</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Mark all your favorite features of freeCodeCamp?</legend>
+          <input type="checkbox" id="challenges" name="challenges" value="challenges">
+          <label for="challenges">Challenges</label>
+          <input type="checkbox" id="projects" name="projects" value="projects">
+          <label for="projects">Projects</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <label for="textarea" id="textarea-label">Any comments or suggestions?</label>
+          </legend>
+          <textarea name="textarea" id="textarea" cols="100" rows="3"></textarea>
+        </fieldset>
+        
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
