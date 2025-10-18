@@ -1,0 +1,151 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Styled To-Do List</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>My To-Do App</h1>
+  </header>
+
+  <main>
+    <section aria-labelledby="todo-heading">
+      <h2 id="todo-heading">Tasks for Today</h2>
+
+      <fieldset>
+        <legend>Active Tasks</legend>
+        <ul class="todo-list">
+          <li class="item-task">
+            <input type="checkbox" id="task-1">
+            <label for="task-1" class="item-label">First Task</label>
+            <ul class="sub-item" aria-label="Related resources">
+              <li>
+                <a class="sub-item-link" href="/" target="_blank" rel="noopener noreferrer">
+                  Documentation for Task 1 (opens in new tab)
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="item-task">
+            <input type="checkbox" id="task-2">
+            <label for="task-2" class="item-label">Second Task</label>
+            <ul class="sub-item" aria-label="Related resources">
+              <li>
+                <a class="sub-item-link" href="/" target="_blank" rel="noopener noreferrer">
+                  Documentation for Task 2 (opens in new tab)
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="item-task">
+            <input type="checkbox" id="task-3">
+            <label for="task-3" class="item-label">Third Task</label>
+            <ul class="sub-item" aria-label="Related resources">
+              <li>
+                <a class="sub-item-link" href="/" target="_blank" rel="noopener noreferrer">
+                  Documentation for Task 3 (opens in new tab)
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="item-task">
+            <input type="checkbox" id="task-4">
+            <label for="task-4" class="item-label">Fourth Task</label>
+            <ul class="sub-item" aria-label="Related resources">
+              <li>
+                <a class="sub-item-link" href="/" target="_blank" rel="noopener noreferrer">
+                  Documentation for Task 4 (opens in new tab)
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </fieldset>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My To-Do App</p>
+  </footer>
+</body>
+
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: #e5e9f0;
+}
+
+header, footer {
+  text-align: center;
+  color: #2e3440;
+}
+
+main {
+  background-color: #3b4252;
+  margin: 5%;
+  padding: 5%;
+}
+
+#todo-heading, legend {
+  color: #eceff4;
+}
+
+.item-task {
+  background-color: #d8dee9;
+  margin: 5%;
+  padding: 5%;
+  line-height: 2;
+  list-style: square;
+  color: #81a1c1;
+}
+
+.item-label {
+  color: #2e3440;
+}
+
+.sub-item{
+  list-style: disk;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Link states */
+a:link {
+  color: #8fbcbb;
+}
+
+a:visited {
+  color: #d08770;
+}
+
+a:hover {
+  color: #a3be8c;
+}
+
+a:active {
+  color: #81a1c1;
+}
+
+a:focus {
+  outline: 2px solid #d08770;
+}
+
+
+** end of styles.css **
+
