@@ -1,0 +1,75 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="">
+    <h1>Our Town's Parade</h1>
+    <p>Join us to our annual Parade!</p>
+  </header>
+  
+  <hr>
+  
+  <main>
+    <section>
+      <h2>Games</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+
+    <section>
+      <h2>Prizes</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>© 2025 Our Town's Parade</p>
+  </footer>
+
+</body>
+
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  width: 50vw;
+  min-height: calc(100vh - 100px);
+    text-align: center;
+}
+
+hr {
+  width: 90%;
+}
+
+section {
+  width: 80%;
+}
+
+** end of styles.css **
+
