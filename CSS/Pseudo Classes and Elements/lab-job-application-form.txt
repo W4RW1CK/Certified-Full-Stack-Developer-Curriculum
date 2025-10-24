@@ -1,0 +1,100 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link href="styles.css" rel="stylesheet"
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <div class="container">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="position">Position</label>
+                <select id="position">
+                    <option>Job1</option>
+                    <option>Job2</option>
+                    <option>Job3</option>
+                </select>
+                <fieldset class="radio-group">
+                    <legend>Availability</legend>
+                    <input type="radio" name="availability" id="opt1">
+                    <label for="opt1">Full Time</label>
+                    <input type="radio"name="availability" id="opt2">
+                    <label for="opt2">Part Time</label>
+                </fieldset>
+                <label for="message">Why do you want this job?</label>
+                <textarea id="message"></textarea>
+             <button type="submit" id="submit-button">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  padding: 20px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px gray;
+}
+
+input, select, textarea, fieldset{
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+input:focus, textarea:focus {
+  border-color: black;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: blue;
+  box-shadow: 0 4px 8px gray;
+}
+
+input[type="radio"]:checked + label {
+
+  color: blue;
+}
+
+input:first-of-type{
+  border-color:orange;
+}
+
+** end of styles.css **
+
